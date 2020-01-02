@@ -1,0 +1,3 @@
+demorgan_bd_demorgan_df_0_0.v,verilog,xil_defaultlib,../../../bd/demorgan_bd/ip/demorgan_bd_demorgan_df_0_0/sim/demorgan_bd_demorgan_df_0_0.v,
+demorgan_bd.v,verilog,xil_defaultlib,../../../bd/demorgan_bd/sim/demorgan_bd.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

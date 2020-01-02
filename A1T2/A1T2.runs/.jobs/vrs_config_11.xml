@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="demorgan_bd_util_vector_logic_6_0_synth_1" LaunchDir="C:/Users/Lori/DigitalDesign/A1T2/A1T2.runs/demorgan_bd_util_vector_logic_6_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+</Runs>
+

@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../A1T2.srcs/sources_1/new/demorgan_df.v" \
+"../../../../A1T2.ip_user_files/bd/demorgan_bd/ip/demorgan_bd_demorgan_df_0_0/sim/demorgan_bd_demorgan_df_0_0.v" \
+"../../../../A1T2.ip_user_files/bd/demorgan_bd/sim/demorgan_bd.v" \
+"../../../../A1T2.srcs/sim_1/new/demorgan_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
