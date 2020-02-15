@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Mon Nov 18 21:58:47 2019
+# Process ID: 7764
+# Current directory: C:/Users/Lori/DigitalDesign/True_A3-2/True_A3-2.runs/task2_xlconcat_0_0_synth_1
+# Command line: vivado.exe -log task2_xlconcat_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source task2_xlconcat_0_0.tcl
+# Log file: C:/Users/Lori/DigitalDesign/True_A3-2/True_A3-2.runs/task2_xlconcat_0_0_synth_1/task2_xlconcat_0_0.vds
+# Journal file: C:/Users/Lori/DigitalDesign/True_A3-2/True_A3-2.runs/task2_xlconcat_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source task2_xlconcat_0_0.tcl -notrace

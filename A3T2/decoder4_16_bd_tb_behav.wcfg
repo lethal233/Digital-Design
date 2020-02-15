@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="decoder4_16_bd_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="decoder4_16_bd_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="109300001fs"></ZoomEndTime>
+      <Cursor1Time time="0fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="59"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="5" />
+   <wvobject fp_name="/decoder4_16_bd_tb/sI0" type="logic">
+      <obj_property name="ElementShortName">sI0</obj_property>
+      <obj_property name="ObjectShortName">sI0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decoder4_16_bd_tb/sI1" type="logic">
+      <obj_property name="ElementShortName">sI1</obj_property>
+      <obj_property name="ObjectShortName">sI1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decoder4_16_bd_tb/sI2" type="logic">
+      <obj_property name="ElementShortName">sI2</obj_property>
+      <obj_property name="ObjectShortName">sI2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decoder4_16_bd_tb/sI3" type="logic">
+      <obj_property name="ElementShortName">sI3</obj_property>
+      <obj_property name="ObjectShortName">sI3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decoder4_16_bd_tb/sY" type="array">
+      <obj_property name="ElementShortName">sY[15:0]</obj_property>
+      <obj_property name="ObjectShortName">sY[15:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+</wave_config>

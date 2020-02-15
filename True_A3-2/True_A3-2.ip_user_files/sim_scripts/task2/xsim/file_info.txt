@@ -1,0 +1,7 @@
+DECO38.v,verilog,xil_defaultlib,../../../bd/task2/ipshared/5e8c/DECO38.v,
+task2_decoder3_8_0_0.v,verilog,xil_defaultlib,../../../bd/task2/ip/task2_decoder3_8_0_0/sim/task2_decoder3_8_0_0.v,
+task2_decoder3_8_1_0.v,verilog,xil_defaultlib,../../../bd/task2/ip/task2_decoder3_8_1_0/sim/task2_decoder3_8_1_0.v,
+task2.v,verilog,xil_defaultlib,../../../bd/task2/sim/task2.v,
+task2_xlconcat_0_0.v,verilog,xil_defaultlib,../../../bd/task2/ip/task2_xlconcat_0_0/sim/task2_xlconcat_0_0.v,
+task2_util_vector_logic_0_1.v,verilog,xil_defaultlib,../../../bd/task2/ip/task2_util_vector_logic_0_1/sim/task2_util_vector_logic_0_1.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

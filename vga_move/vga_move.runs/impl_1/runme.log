@@ -1,0 +1,89 @@
+
+*** Running vivado
+    with args -log VGA.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source VGA.tcl -notrace
+
+
+****** Vivado v2017.4 (64-bit)
+  **** SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+  **** IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source VGA.tcl -notrace
+Command: link_design -top VGA -part xc7a100tfgg484-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Netlist 29-17] Analyzing 80 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2017.4
+INFO: [Device 21-403] Loading part xc7a100tfgg484-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [c:/Users/Lori/DigitalDesign/vga_move/vga_move.srcs/sources_1/ip/div/div_board.xdc] for cell 'd/inst'
+Finished Parsing XDC File [c:/Users/Lori/DigitalDesign/vga_move/vga_move.srcs/sources_1/ip/div/div_board.xdc] for cell 'd/inst'
+Parsing XDC File [c:/Users/Lori/DigitalDesign/vga_move/vga_move.srcs/sources_1/ip/div/div.xdc] for cell 'd/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [c:/Users/Lori/DigitalDesign/vga_move/vga_move.srcs/sources_1/ip/div/div.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [c:/Users/Lori/DigitalDesign/vga_move/vga_move.srcs/sources_1/ip/div/div.xdc:57]
+get_clocks: Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1138.820 ; gain = 571.047
+Finished Parsing XDC File [c:/Users/Lori/DigitalDesign/vga_move/vga_move.srcs/sources_1/ip/div/div.xdc] for cell 'd/inst'
+Parsing XDC File [C:/Users/Lori/DigitalDesign/vga_move/vga_move.srcs/constrs_1/new/const.xdc]
+Finished Parsing XDC File [C:/Users/Lori/DigitalDesign/vga_move/vga_move.srcs/constrs_1/new/const.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+9 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1138.820 ; gain = 906.684
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net s/Q[0] has multiple drivers: h_cnt_IBUF[0]_inst/O, and s/h_cnt_reg[0]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net s/Q[10] has multiple drivers: h_cnt_IBUF[10]_inst/O, and s/h_cnt_reg[10]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net s/Q[11] has multiple drivers: h_cnt_IBUF[11]_inst/O, and s/h_cnt_reg[11]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net s/Q[12] has multiple drivers: h_cnt_IBUF[12]_inst/O, and s/h_cnt_reg[12]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net s/Q[13] has multiple drivers: h_cnt_IBUF[13]_inst/O, and s/h_cnt_reg[13]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net s/Q[14] has multiple drivers: h_cnt_IBUF[14]_inst/O, and s/h_cnt_reg[14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net s/Q[15] has multiple drivers: h_cnt_IBUF[15]_inst/O, and s/h_cnt_reg[15]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net s/Q[16] has multiple drivers: h_cnt_IBUF[16]_inst/O, and s/h_cnt_reg[16]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net s/Q[17] has multiple drivers: h_cnt_IBUF[17]_inst/O, and s/h_cnt_reg[17]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net s/Q[1] has multiple drivers: h_cnt_IBUF[1]_inst/O, and s/h_cnt_reg[1]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net s/Q[2] has multiple drivers: h_cnt_IBUF[2]_inst/O, and s/h_cnt_reg[2]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net s/Q[3] has multiple drivers: h_cnt_IBUF[3]_inst/O, and s/h_cnt_reg[3]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net s/Q[4] has multiple drivers: h_cnt_IBUF[4]_inst/O, and s/h_cnt_reg[4]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net s/Q[5] has multiple drivers: h_cnt_IBUF[5]_inst/O, and s/h_cnt_reg[5]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net s/Q[6] has multiple drivers: h_cnt_IBUF[6]_inst/O, and s/h_cnt_reg[6]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net s/Q[7] has multiple drivers: h_cnt_IBUF[7]_inst/O, and s/h_cnt_reg[7]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net s/Q[8] has multiple drivers: h_cnt_IBUF[8]_inst/O, and s/h_cnt_reg[8]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net s/Q[9] has multiple drivers: h_cnt_IBUF[9]_inst/O, and s/h_cnt_reg[9]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net s/v_cnt_IBUF[0] has multiple drivers: v_cnt_IBUF[0]_inst/O, and s/v_cnt_reg[0]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net s/v_cnt_IBUF[10] has multiple drivers: v_cnt_IBUF[10]_inst/O, and s/v_cnt_reg[10]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net s/v_cnt_IBUF[11] has multiple drivers: v_cnt_IBUF[11]_inst/O, and s/v_cnt_reg[11]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net s/v_cnt_IBUF[12] has multiple drivers: v_cnt_IBUF[12]_inst/O, and s/v_cnt_reg[12]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net s/v_cnt_IBUF[13] has multiple drivers: v_cnt_IBUF[13]_inst/O, and s/v_cnt_reg[13]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net s/v_cnt_IBUF[14] has multiple drivers: v_cnt_IBUF[14]_inst/O, and s/v_cnt_reg[14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net s/v_cnt_IBUF[15] has multiple drivers: v_cnt_IBUF[15]_inst/O, and s/v_cnt_reg[15]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net s/v_cnt_IBUF[16] has multiple drivers: v_cnt_IBUF[16]_inst/O, and s/v_cnt_reg[16]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net s/v_cnt_IBUF[17] has multiple drivers: v_cnt_IBUF[17]_inst/O, and s/v_cnt_reg[17]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net s/v_cnt_IBUF[1] has multiple drivers: v_cnt_IBUF[1]_inst/O, and s/v_cnt_reg[1]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net s/v_cnt_IBUF[2] has multiple drivers: v_cnt_IBUF[2]_inst/O, and s/v_cnt_reg[2]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net s/v_cnt_IBUF[3] has multiple drivers: v_cnt_IBUF[3]_inst/O, and s/v_cnt_reg[3]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net s/v_cnt_IBUF[4] has multiple drivers: v_cnt_IBUF[4]_inst/O, and s/v_cnt_reg[4]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net s/v_cnt_IBUF[5] has multiple drivers: v_cnt_IBUF[5]_inst/O, and s/v_cnt_reg[5]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net s/v_cnt_IBUF[6] has multiple drivers: v_cnt_IBUF[6]_inst/O, and s/v_cnt_reg[6]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net s/v_cnt_IBUF[7] has multiple drivers: v_cnt_IBUF[7]_inst/O, and s/v_cnt_reg[7]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net s/v_cnt_IBUF[8] has multiple drivers: v_cnt_IBUF[8]_inst/O, and s/v_cnt_reg[8]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net s/v_cnt_IBUF[9] has multiple drivers: v_cnt_IBUF[9]_inst/O, and s/v_cnt_reg[9]/Q.
+INFO: [Project 1-461] DRC finished with 36 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+ERROR: [Vivado_Tcl 4-78] Error(s) found during DRC. Opt_design not run.
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.966 . Memory (MB): peak = 1138.820 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+14 Infos, 0 Warnings, 0 Critical Warnings and 37 Errors encountered.
+opt_design failed
+ERROR: [Common 17-39] 'opt_design' failed due to earlier errors.
+
+INFO: [Common 17-206] Exiting Vivado at Thu Jan  2 11:15:15 2020...

@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../../Documents/Tencent Files/695297502/FileRecv/VGA/colorLumpOutput.v" \
+"../../../../../../Documents/Tencent Files/695297502/FileRecv/VGA/timer/frequencyDivider.v" \
+"../../../../../../Documents/Tencent Files/695297502/FileRecv/VGA/lineOutput.v" \
+"../../../../../../Documents/Tencent Files/695297502/FileRecv/VGA/timer/lineSync.v" \
+"../../../../../../Documents/Tencent Files/695297502/FileRecv/VGA/timer/pixelSync.v" \
+"../../../../finalProjectRGB.srcs/sim_1/new/pixel_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

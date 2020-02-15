@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sun Nov 17 11:42:07 2019
+# Process ID: 10968
+# Current directory: C:/Users/Lori/DigitalDesign/True_A3/True_A3.runs/task1_util_vector_logic_0_1_synth_1
+# Command line: vivado.exe -log task1_util_vector_logic_0_1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source task1_util_vector_logic_0_1.tcl
+# Log file: C:/Users/Lori/DigitalDesign/True_A3/True_A3.runs/task1_util_vector_logic_0_1_synth_1/task1_util_vector_logic_0_1.vds
+# Journal file: C:/Users/Lori/DigitalDesign/True_A3/True_A3.runs/task1_util_vector_logic_0_1_synth_1\vivado.jou
+#-----------------------------------------------------------
+source task1_util_vector_logic_0_1.tcl -notrace
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP task1_util_vector_logic_0_1, cache-ID = c3f8e5447035c4c0.
+INFO: [Common 17-206] Exiting Vivado at Sun Nov 17 11:42:11 2019...

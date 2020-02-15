@@ -1,0 +1,13 @@
+verilog xil_defaultlib  \
+"../../../bd/decoder4_16/ipshared/6d83/decoder3_8.v" \
+"../../../bd/decoder4_16/ip/decoder4_16_decoder3_8_0_0/sim/decoder4_16_decoder3_8_0_0.v" \
+"../../../bd/decoder4_16/ip/decoder4_16_decoder3_8_1_0/sim/decoder4_16_decoder3_8_1_0.v" \
+"../../../bd/decoder4_16/ip/decoder4_16_xlconcat_0_0/sim/decoder4_16_xlconcat_0_0.v" \
+"../../../bd/decoder4_16/ip/decoder4_16_util_vector_logic_0_1/sim/decoder4_16_util_vector_logic_0_1.v" \
+"../../../bd/decoder4_16/ip/decoder4_16_util_vector_logic_1_0/sim/decoder4_16_util_vector_logic_1_0.v" \
+"../../../bd/decoder4_16/ip/decoder4_16_util_vector_logic_2_0/sim/decoder4_16_util_vector_logic_2_0.v" \
+"../../../bd/decoder4_16/sim/decoder4_16.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

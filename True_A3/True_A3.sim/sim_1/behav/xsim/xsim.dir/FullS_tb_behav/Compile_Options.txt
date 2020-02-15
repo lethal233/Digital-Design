@@ -1,0 +1,1 @@
+-wto "b37e8c2ccfba431ebed8d653bb10bebc" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "util_vector_logic_v2_0_1" -L "xlconstant_v1_1_3" -L "unisims_ver" -L "unimacro_ver" -L "secureip" -L "xpm" --snapshot "FullS_tb_behav" "xil_defaultlib.FullS_tb" "xil_defaultlib.glbl" -log "elaborate.log" 

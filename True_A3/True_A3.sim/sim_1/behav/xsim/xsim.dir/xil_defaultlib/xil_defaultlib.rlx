@@ -1,0 +1,16 @@
+0.6
+2017.4
+Dec 15 2017
+21:07:18
+C:/Users/Lori/DigitalDesign/True_A3/True_A3.ip_user_files/bd/task1/ip/task1_multiplexer41_0_0/sim/task1_multiplexer41_0_0.v,1573962028,verilog,,C:/Users/Lori/DigitalDesign/True_A3/True_A3.ip_user_files/bd/task1/ip/task1_multiplexer41_1_0/sim/task1_multiplexer41_1_0.v,,task1_multiplexer41_0_0,,,,,,,,
+C:/Users/Lori/DigitalDesign/True_A3/True_A3.ip_user_files/bd/task1/ip/task1_multiplexer41_1_0/sim/task1_multiplexer41_1_0.v,1573962029,verilog,,C:/Users/Lori/DigitalDesign/True_A3/True_A3.ip_user_files/bd/task1/ip/task1_util_vector_logic_0_0/sim/task1_util_vector_logic_0_0.v,,task1_multiplexer41_1_0,,,,,,,,
+C:/Users/Lori/DigitalDesign/True_A3/True_A3.ip_user_files/bd/task1/ip/task1_util_vector_logic_0_0/sim/task1_util_vector_logic_0_0.v,1573962029,verilog,,C:/Users/Lori/DigitalDesign/True_A3/True_A3.ip_user_files/bd/task1/ip/task1_util_vector_logic_0_1/sim/task1_util_vector_logic_0_1.v,,task1_util_vector_logic_0_0,,,,,,,,
+C:/Users/Lori/DigitalDesign/True_A3/True_A3.ip_user_files/bd/task1/ip/task1_util_vector_logic_0_1/sim/task1_util_vector_logic_0_1.v,1573962029,verilog,,C:/Users/Lori/DigitalDesign/True_A3/True_A3.ip_user_files/bd/task1/sim/task1.v,,task1_util_vector_logic_0_1,,,,,,,,
+C:/Users/Lori/DigitalDesign/True_A3/True_A3.ip_user_files/bd/task1/ip/task1_xlconstant_0_0/sim/task1_xlconstant_0_0.v,1573964078,verilog,,C:/Users/Lori/DigitalDesign/True_A3/True_A3.ip_user_files/bd/task1/ip/task1_xlconstant_1_0/sim/task1_xlconstant_1_0.v,,task1_xlconstant_0_0,,,,,,,,
+C:/Users/Lori/DigitalDesign/True_A3/True_A3.ip_user_files/bd/task1/ip/task1_xlconstant_1_0/sim/task1_xlconstant_1_0.v,1573964078,verilog,,C:/Users/Lori/DigitalDesign/True_A3/True_A3.srcs/sources_1/bd/task1/hdl/task1_wrapper.v,,task1_xlconstant_1_0,,,,,,,,
+C:/Users/Lori/DigitalDesign/True_A3/True_A3.ip_user_files/bd/task1/ipshared/4ded/sources_1/new/multiplexer41.v,1573962028,verilog,,C:/Users/Lori/DigitalDesign/True_A3/True_A3.ip_user_files/bd/task1/ip/task1_multiplexer41_0_0/sim/task1_multiplexer41_0_0.v,,multiplexer41,,,,,,,,
+C:/Users/Lori/DigitalDesign/True_A3/True_A3.ip_user_files/bd/task1/sim/task1.v,1573964078,verilog,,C:/Users/Lori/DigitalDesign/True_A3/True_A3.ip_user_files/bd/task1/ip/task1_xlconstant_0_0/sim/task1_xlconstant_0_0.v,,task1,,,,,,,,
+C:/Users/Lori/DigitalDesign/True_A3/True_A3.sim/sim_1/behav/xsim/glbl.v,1513215259,verilog,,,,glbl,,,,,,,,
+C:/Users/Lori/DigitalDesign/True_A3/True_A3.srcs/sim_1/new/FullS_tb.v,1573964681,verilog,,,,FullS_tb,,,,,,,,
+C:/Users/Lori/DigitalDesign/True_A3/True_A3.srcs/sim_1/new/mux41_tb.v,1573960635,verilog,,,,mux41_tb,,,,,,,,
+C:/Users/Lori/DigitalDesign/True_A3/True_A3.srcs/sources_1/bd/task1/hdl/task1_wrapper.v,1573964078,verilog,,C:/Users/Lori/DigitalDesign/True_A3/True_A3.srcs/sim_1/new/FullS_tb.v,,task1_wrapper,,,,,,,,

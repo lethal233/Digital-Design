@@ -1,0 +1,11 @@
+design_1_util_vector_logic_0_0.v,verilog,xil_defaultlib,../../../bd/design_1/ip/design_1_util_vector_logic_0_0/sim/design_1_util_vector_logic_0_0.v,
+design_1_util_vector_logic_1_0.v,verilog,xil_defaultlib,../../../bd/design_1/ip/design_1_util_vector_logic_1_0/sim/design_1_util_vector_logic_1_0.v,
+design_1_util_vector_logic_2_0.v,verilog,xil_defaultlib,../../../bd/design_1/ip/design_1_util_vector_logic_2_0/sim/design_1_util_vector_logic_2_0.v,
+design_1_util_vector_logic_3_0.v,verilog,xil_defaultlib,../../../bd/design_1/ip/design_1_util_vector_logic_3_0/sim/design_1_util_vector_logic_3_0.v,
+design_1_util_vector_logic_4_0.v,verilog,xil_defaultlib,../../../bd/design_1/ip/design_1_util_vector_logic_4_0/sim/design_1_util_vector_logic_4_0.v,
+design_1_util_vector_logic_4_1.v,verilog,xil_defaultlib,../../../bd/design_1/ip/design_1_util_vector_logic_4_1/sim/design_1_util_vector_logic_4_1.v,
+design_1_util_vector_logic_4_2.v,verilog,xil_defaultlib,../../../bd/design_1/ip/design_1_util_vector_logic_4_2/sim/design_1_util_vector_logic_4_2.v,
+design_1_util_vector_logic_4_3.v,verilog,xil_defaultlib,../../../bd/design_1/ip/design_1_util_vector_logic_4_3/sim/design_1_util_vector_logic_4_3.v,
+design_1_util_vector_logic_7_0.v,verilog,xil_defaultlib,../../../bd/design_1/ip/design_1_util_vector_logic_7_0/sim/design_1_util_vector_logic_7_0.v,
+design_1.v,verilog,xil_defaultlib,../../../bd/design_1/sim/design_1.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

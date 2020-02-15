@@ -1,0 +1,11 @@
+0.6
+2017.4
+Dec 15 2017
+21:07:18
+C:/Users/Lori/DigitalDesign/finalProjectRGB/finalProjectRGB.sim/sim_1/behav/xsim/glbl.v,1513215259,verilog,,,,glbl,,,,,,,,
+C:/Users/Lori/DigitalDesign/finalProjectRGB/finalProjectRGB.srcs/sim_1/new/pixel_tb.v,1575985580,verilog,,,,pixel_tb,,,,,,,,
+C:/Users/Lori/Documents/Tencent Files/695297502/FileRecv/VGA/colorLumpOutput.v,1575989825,verilog,,C:/Users/Lori/Documents/Tencent Files/695297502/FileRecv/VGA/timer/frequencyDivider.v,,colorLumpOutput,,,,,,,,
+C:/Users/Lori/Documents/Tencent Files/695297502/FileRecv/VGA/lineOutput.v,1575989922,verilog,,C:/Users/Lori/Documents/Tencent Files/695297502/FileRecv/VGA/timer/lineSync.v,,lineOutput,,,,,,,,
+C:/Users/Lori/Documents/Tencent Files/695297502/FileRecv/VGA/timer/frequencyDivider.v,1575986495,verilog,,C:/Users/Lori/Documents/Tencent Files/695297502/FileRecv/VGA/lineOutput.v,,frequencyDivider,,,,,,,,
+C:/Users/Lori/Documents/Tencent Files/695297502/FileRecv/VGA/timer/lineSync.v,1575981070,verilog,,C:/Users/Lori/Documents/Tencent Files/695297502/FileRecv/VGA/timer/pixelSync.v,,lineSync,,,,,,,,
+C:/Users/Lori/Documents/Tencent Files/695297502/FileRecv/VGA/timer/pixelSync.v,1575980931,verilog,,C:/Users/Lori/DigitalDesign/finalProjectRGB/finalProjectRGB.srcs/sim_1/new/pixel_tb.v,,pixelSync,,,,,,,,

@@ -1,0 +1,14 @@
+0.6
+2017.4
+Dec 15 2017
+21:07:18
+C:/Users/Lori/DigitalDesign/True_A3-2/True_A3-2.ip_user_files/bd/task2/ip/task2_decoder3_8_0_0/sim/task2_decoder3_8_0_0.v,1574084587,verilog,,C:/Users/Lori/DigitalDesign/True_A3-2/True_A3-2.ip_user_files/bd/task2/ip/task2_decoder3_8_1_0/sim/task2_decoder3_8_1_0.v,,task2_decoder3_8_0_0,,,,,,,,
+C:/Users/Lori/DigitalDesign/True_A3-2/True_A3-2.ip_user_files/bd/task2/ip/task2_decoder3_8_1_0/sim/task2_decoder3_8_1_0.v,1574084587,verilog,,C:/Users/Lori/DigitalDesign/True_A3-2/True_A3-2.ip_user_files/bd/task2/sim/task2.v,,task2_decoder3_8_1_0,,,,,,,,
+C:/Users/Lori/DigitalDesign/True_A3-2/True_A3-2.ip_user_files/bd/task2/ip/task2_util_vector_logic_0_1/sim/task2_util_vector_logic_0_1.v,1574085274,verilog,,C:/Users/Lori/DigitalDesign/True_A3-2/True_A3-2.srcs/sources_1/new/BCD_to_seven.v,,task2_util_vector_logic_0_1,,,,,,,,
+C:/Users/Lori/DigitalDesign/True_A3-2/True_A3-2.ip_user_files/bd/task2/ip/task2_xlconcat_0_0/sim/task2_xlconcat_0_0.v,1574084587,verilog,,C:/Users/Lori/DigitalDesign/True_A3-2/True_A3-2.ip_user_files/bd/task2/ip/task2_util_vector_logic_0_1/sim/task2_util_vector_logic_0_1.v,,task2_xlconcat_0_0,,,,,,,,
+C:/Users/Lori/DigitalDesign/True_A3-2/True_A3-2.ip_user_files/bd/task2/ipshared/5e8c/DECO38.v,1574084587,verilog,,C:/Users/Lori/DigitalDesign/True_A3-2/True_A3-2.ip_user_files/bd/task2/ip/task2_decoder3_8_0_0/sim/task2_decoder3_8_0_0.v,,DECO38,,,,,,,,
+C:/Users/Lori/DigitalDesign/True_A3-2/True_A3-2.ip_user_files/bd/task2/sim/task2.v,1574085273,verilog,,C:/Users/Lori/DigitalDesign/True_A3-2/True_A3-2.ip_user_files/bd/task2/ip/task2_xlconcat_0_0/sim/task2_xlconcat_0_0.v,,task2,,,,,,,,
+C:/Users/Lori/DigitalDesign/True_A3-2/True_A3-2.sim/sim_1/behav/xsim/glbl.v,1513215259,verilog,,,,glbl,,,,,,,,
+C:/Users/Lori/DigitalDesign/True_A3-2/True_A3-2.srcs/sim_1/new/BCD_tb.v,1574084578,verilog,,,,BCD_tb,,,,,,,,
+C:/Users/Lori/DigitalDesign/True_A3-2/True_A3-2.srcs/sources_1/bd/task2/hdl/task2_wrapper.v,1574084715,verilog,,C:/Users/Lori/DigitalDesign/True_A3-2/True_A3-2.srcs/sim_1/new/BCD_tb.v,,task2_wrapper,,,,,,,,
+C:/Users/Lori/DigitalDesign/True_A3-2/True_A3-2.srcs/sources_1/new/BCD_to_seven.v,1574087018,verilog,,C:/Users/Lori/DigitalDesign/True_A3-2/True_A3-2.srcs/sources_1/bd/task2/hdl/task2_wrapper.v,,BCD_to_seven,,,,,,,,

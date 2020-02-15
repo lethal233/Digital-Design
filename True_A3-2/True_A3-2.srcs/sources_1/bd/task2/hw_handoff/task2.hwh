@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Mon Nov 18 21:54:34 2019" VIVADOVERSION="2017.4">
+
+  <SYSTEMINFO ARCH="artix7" DEVICE="7a100t" NAME="task2" PACKAGE="fgg484" SPEEDGRADE="-1"/>
+
+  <EXTERNALPORTS>
+    <PORT DIR="I" NAME="w" SIGIS="undef" SIGNAME="External_Ports_w">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="decoder3_8_1" PORT="EN"/>
+        <CONNECTION INSTANCE="util_vector_logic_0" PORT="Op1"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="z" SIGIS="undef" SIGNAME="External_Ports_z">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="decoder3_8_1" PORT="I0"/>
+        <CONNECTION INSTANCE="decoder3_8_0" PORT="I0"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="y" SIGIS="undef" SIGNAME="External_Ports_y">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="decoder3_8_1" PORT="I1"/>
+        <CONNECTION INSTANCE="decoder3_8_0" PORT="I1"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="x" SIGIS="undef" SIGNAME="External_Ports_x">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="decoder3_8_1" PORT="I2"/>
+        <CONNECTION INSTANCE="decoder3_8_0" PORT="I2"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="15" NAME="O" RIGHT="0" SIGIS="undef" SIGNAME="xlconcat_0_dout">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="xlconcat_0" PORT="dout"/>
+      </CONNECTIONS>
+    </PORT>
+  </EXTERNALPORTS>
+
+  <EXTERNALINTERFACES/>
+
+  <MODULES>
+    <MODULE FULLNAME="/decoder3_8_0" HWVERSION="1.0" INSTANCE="decoder3_8_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="decoder3_8" VLNV="xilinx.com:user:decoder3_8:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="En_Num" VALUE="1"/>
+        <PARAMETER NAME="Component_Name" VALUE="task2_decoder3_8_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="I0" SIGIS="undef" SIGNAME="External_Ports_z">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="z"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="I1" SIGIS="undef" SIGNAME="External_Ports_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="I2" SIGIS="undef" SIGNAME="External_Ports_x">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="x"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="EN" RIGHT="0" SIGIS="undef" SIGNAME="util_vector_logic_0_Res">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="util_vector_logic_0" PORT="Res"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="7" NAME="Y" RIGHT="0" SIGIS="undef" SIGNAME="decoder3_8_0_Y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlconcat_0" PORT="In1"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/decoder3_8_1" HWVERSION="1.0" INSTANCE="decoder3_8_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="decoder3_8" VLNV="xilinx.com:user:decoder3_8:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="En_Num" VALUE="1"/>
+        <PARAMETER NAME="Component_Name" VALUE="task2_decoder3_8_1_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="I0" SIGIS="undef" SIGNAME="External_Ports_z">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="z"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="I1" SIGIS="undef" SIGNAME="External_Ports_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="I2" SIGIS="undef" SIGNAME="External_Ports_x">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="x"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="EN" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_w">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="w"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="7" NAME="Y" RIGHT="0" SIGIS="undef" SIGNAME="decoder3_8_1_Y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlconcat_0" PORT="In0"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/util_vector_logic_0" HWVERSION="2.0" INSTANCE="util_vector_logic_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="util_vector_logic" VLNV="xilinx.com:ip:util_vector_logic:2.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="C_OPERATION" VALUE="not"/>
+        <PARAMETER NAME="C_SIZE" VALUE="1"/>
+        <PARAMETER NAME="Component_Name" VALUE="task2_util_vector_logic_0_1"/>
+        <PARAMETER NAME="LOGO_FILE" VALUE="data/sym_notgate.png"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="0" NAME="Op1" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_w">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="w"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="0" NAME="Res" RIGHT="0" SIGIS="undef" SIGNAME="util_vector_logic_0_Res">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="decoder3_8_0" PORT="EN"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/xlconcat_0" HWVERSION="2.1" INSTANCE="xlconcat_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xlconcat" VLNV="xilinx.com:ip:xlconcat:2.1">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="IN0_WIDTH" VALUE="8"/>
+        <PARAMETER NAME="IN1_WIDTH" VALUE="8"/>
+        <PARAMETER NAME="IN2_WIDTH" VALUE="1"/>
+        <PARAMETER NAME="IN3_WIDTH" VALUE="1"/>
+        <PARAMETER NAME="IN4_WIDTH" VALUE="1"/>
+        <PARAMETER NAME="IN5_WIDTH" VALUE="1"/>
+        <PARAMETER NAME="IN6_WIDTH" VALUE="1"/>
+        <PARAMETER NAME="IN7_WIDTH" VALUE="1"/>
+        <PARAMETER NAME="IN8_WIDTH" VALUE="1"/>
+        <PARAMETER NAME="IN9_WIDTH" VALUE="1"/>
+        <PARAMETER NAME="IN10_WIDTH" VALUE="1"/>
+        <PARAMETER NAME="IN11_WIDTH" VALUE="1"/>
+        <PARAMETER NAME="IN12_WIDTH" VALUE="1"/>
+        <PARAMETER NAME="IN13_WIDTH" VALUE="1"/>
+        <PARAMETER NAME="IN14_WIDTH" VALUE="1"/>
+        <PARAMETER NAME="IN15_WIDTH" VALUE="1"/>
+        <PARAMETER NAME="IN16_WIDTH" VALUE="1"/>
+        <PARAMETER NAME="IN17_WIDTH" VALUE="1"/>
+        <PARAMETER NAME="IN18_WIDTH" VALUE="1"/>
+        <PARAMETER NAME="IN19_WIDTH" VALUE="1"/>
+        <PARAMETER NAME="IN20_WIDTH" VALUE="1"/>
+        <PARAMETER NAME="IN21_WIDTH" VALUE="1"/>
+        <PARAMETER NAME="IN22_WIDTH" VALUE="1"/>
+        <PARAMETER NAME="IN23_WIDTH" VALUE="1"/>
+        <PARAMETER NAME="IN24_WIDTH" VALUE="1"/>
+        <PARAMETER NAME="IN25_WIDTH" VALUE="1"/>
+        <PARAMETER NAME="IN26_WIDTH" VALUE="1"/>
+        <PARAMETER NAME="IN27_WIDTH" VALUE="1"/>
+        <PARAMETER NAME="IN28_WIDTH" VALUE="1"/>
+        <PARAMETER NAME="IN29_WIDTH" VALUE="1"/>
+        <PARAMETER NAME="IN30_WIDTH" VALUE="1"/>
+        <PARAMETER NAME="IN31_WIDTH" VALUE="1"/>
+        <PARAMETER NAME="dout_width" VALUE="16"/>
+        <PARAMETER NAME="NUM_PORTS" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="task2_xlconcat_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="7" NAME="In0" RIGHT="0" SIGIS="undef" SIGNAME="decoder3_8_1_Y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="decoder3_8_1" PORT="Y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="7" NAME="In1" RIGHT="0" SIGIS="undef" SIGNAME="decoder3_8_0_Y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="decoder3_8_0" PORT="Y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="15" NAME="dout" RIGHT="0" SIGIS="undef" SIGNAME="xlconcat_0_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="O"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+  </MODULES>
+
+</EDKSYSTEM>

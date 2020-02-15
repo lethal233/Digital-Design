@@ -1,0 +1,31 @@
+{
+   ExpandedHierarchyInLayout: "",
+   guistr: "# # String gsaved with Nlview 6.6.11  2017-06-12 bk=1.3860 VDI=40 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port I0 -pg 1 -y -340 -defaultsOSRD
+preplace port I1 -pg 1 -y -160 -defaultsOSRD
+preplace port I2 -pg 1 -y -120 -defaultsOSRD
+preplace port EN -pg 1 -y 50 -defaultsOSRD
+preplace port I3 -pg 1 -y -40 -defaultsOSRD
+preplace portBus Y -pg 1 -y 10 -defaultsOSRD
+preplace inst util_vector_logic_0 -pg 1 -lvl 2 -y -40 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 5 -y 10 -defaultsOSRD
+preplace inst decoder3_8_0 -pg 1 -lvl 4 -y -210 -defaultsOSRD
+preplace inst util_vector_logic_1 -pg 1 -lvl 3 -y 60 -defaultsOSRD
+preplace inst decoder3_8_1 -pg 1 -lvl 4 -y 40 -defaultsOSRD
+preplace inst util_vector_logic_2 -pg 1 -lvl 1 -y -280 -defaultsOSRD
+preplace netloc I1_1 1 0 4 N -160 N -160 N -160 960
+preplace netloc I0_1 1 0 4 N -340 N -340 N -340 950
+preplace netloc decoder3_8_0_Y 1 4 1 1150
+preplace netloc util_vector_logic_0_Res 1 2 1 640
+preplace netloc I2_1 1 0 4 N -120 N -120 N -120 970
+preplace netloc xlconcat_0_dout 1 5 1 N
+preplace netloc EN_1 1 0 3 20J 50 N 50 630
+preplace netloc util_vector_logic_2_Res 1 1 3 NJ -280 NJ -280 940
+preplace netloc util_vector_logic_1_Res 1 3 1 950
+preplace netloc decoder3_8_1_Y 1 4 1 1150
+preplace netloc I3_1 1 0 2 10 -40 N
+levelinfo -pg 1 -10 170 480 790 1060 1260 1390 -top -570 -bot 180
+",
+}
+0

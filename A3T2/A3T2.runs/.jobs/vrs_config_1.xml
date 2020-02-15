@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="decoder4_16_decoder3_8_0_0_synth_1" LaunchDir="C:/Users/Lori/DigitalDesign/A3T2/A3T2.runs/decoder4_16_decoder3_8_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="decoder4_16_decoder3_8_1_0_synth_1" LaunchDir="C:/Users/Lori/DigitalDesign/A3T2/A3T2.runs/decoder4_16_decoder3_8_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="decoder4_16_decoder3_8_0_0_synth_1"/>
+	</Run>
+	<Run Id="decoder4_16_util_vector_logic_0_0_synth_1" LaunchDir="C:/Users/Lori/DigitalDesign/A3T2/A3T2.runs/decoder4_16_util_vector_logic_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="decoder4_16_xlconcat_0_0_synth_1" LaunchDir="C:/Users/Lori/DigitalDesign/A3T2/A3T2.runs/decoder4_16_xlconcat_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="C:/Users/Lori/DigitalDesign/A3T2/A3T2.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="decoder4_16_decoder3_8_0_0_synth_1"/>
+		<Parent Id="decoder4_16_decoder3_8_1_0_synth_1"/>
+		<Parent Id="decoder4_16_util_vector_logic_0_0_synth_1"/>
+		<Parent Id="decoder4_16_xlconcat_0_0_synth_1"/>
+	</Run>
+</Runs>
+

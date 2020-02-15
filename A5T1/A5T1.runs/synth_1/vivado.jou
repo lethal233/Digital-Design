@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Tue Dec 17 20:02:02 2019
+# Process ID: 25064
+# Current directory: C:/Users/Lori/DigitalDesign/A5T1/A5T1.runs/synth_1
+# Command line: vivado.exe -log sp_converter.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source sp_converter.tcl
+# Log file: C:/Users/Lori/DigitalDesign/A5T1/A5T1.runs/synth_1/sp_converter.vds
+# Journal file: C:/Users/Lori/DigitalDesign/A5T1/A5T1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source sp_converter.tcl -notrace

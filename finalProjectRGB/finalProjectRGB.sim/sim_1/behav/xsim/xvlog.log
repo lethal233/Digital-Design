@@ -1,0 +1,12 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Lori/Documents/Tencent Files/695297502/FileRecv/VGA/colorLumpOutput.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module colorLumpOutput
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Lori/Documents/Tencent Files/695297502/FileRecv/VGA/timer/frequencyDivider.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module frequencyDivider
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Lori/Documents/Tencent Files/695297502/FileRecv/VGA/lineOutput.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lineOutput
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Lori/Documents/Tencent Files/695297502/FileRecv/VGA/timer/lineSync.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lineSync
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Lori/Documents/Tencent Files/695297502/FileRecv/VGA/timer/pixelSync.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pixelSync
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Lori/DigitalDesign/finalProjectRGB/finalProjectRGB.srcs/sim_1/new/pixel_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pixel_tb

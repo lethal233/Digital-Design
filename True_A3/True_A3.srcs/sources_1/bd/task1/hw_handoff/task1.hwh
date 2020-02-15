@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Sun Nov 17 12:14:38 2019" VIVADOVERSION="2017.4">
+
+  <SYSTEMINFO ARCH="artix7" DEVICE="7a100t" NAME="task1" PACKAGE="fgg484" SPEEDGRADE="-1"/>
+
+  <EXTERNALPORTS>
+    <PORT DIR="O" NAME="D" SIGIS="undef" SIGNAME="MUX41_1_o">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="MUX41_1" PORT="o"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="B" SIGIS="undef" SIGNAME="MUX41_2_o">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="MUX41_2" PORT="o"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" LEFT="1" NAME="QW" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_QW">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="MUX41_1" PORT="s"/>
+        <CONNECTION INSTANCE="MUX41_2" PORT="s"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="E" SIGIS="undef" SIGNAME="External_Ports_E">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="MUX41_1" PORT="w"/>
+        <CONNECTION INSTANCE="not_gate_1" PORT="Op1"/>
+        <CONNECTION INSTANCE="not_gate_2" PORT="Op1"/>
+        <CONNECTION INSTANCE="MUX41_1" PORT="z"/>
+        <CONNECTION INSTANCE="MUX41_2" PORT="w"/>
+        <CONNECTION INSTANCE="MUX41_2" PORT="z"/>
+      </CONNECTIONS>
+    </PORT>
+  </EXTERNALPORTS>
+
+  <EXTERNALINTERFACES/>
+
+  <MODULES>
+    <MODULE FULLNAME="/MUX41_1" HWVERSION="1.0" INSTANCE="MUX41_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="multiplexer41" VLNV="xilinx.com:user:multiplexer41:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="task1_multiplexer41_1_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="w" SIGIS="undef" SIGNAME="External_Ports_E">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="E"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="x" SIGIS="undef" SIGNAME="not_gate_1_Res">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="not_gate_1" PORT="Res"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="y" SIGIS="undef" SIGNAME="not_gate_2_Res">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="not_gate_2" PORT="Res"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="z" SIGIS="undef" SIGNAME="External_Ports_E">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="E"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="1" NAME="s" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_QW">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="QW"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="o" SIGIS="undef" SIGNAME="MUX41_1_o">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="D"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/MUX41_2" HWVERSION="1.0" INSTANCE="MUX41_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="multiplexer41" VLNV="xilinx.com:user:multiplexer41:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="task1_multiplexer41_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="w" SIGIS="undef" SIGNAME="External_Ports_E">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="E"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="x" SIGIS="undef" SIGNAME="const1_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="const1" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="y" SIGIS="undef" SIGNAME="const0_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="const0" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="z" SIGIS="undef" SIGNAME="External_Ports_E">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="E"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="1" NAME="s" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_QW">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="QW"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="o" SIGIS="undef" SIGNAME="MUX41_2_o">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/const0" HWVERSION="1.1" INSTANCE="const0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xlconstant" VLNV="xilinx.com:ip:xlconstant:1.1">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="CONST_WIDTH" VALUE="1"/>
+        <PARAMETER NAME="CONST_VAL" VALUE="0x0"/>
+        <PARAMETER NAME="Component_Name" VALUE="task1_xlconstant_1_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="O" LEFT="0" NAME="dout" RIGHT="0" SIGIS="undef" SIGNAME="const0_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="MUX41_2" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/const1" HWVERSION="1.1" INSTANCE="const1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xlconstant" VLNV="xilinx.com:ip:xlconstant:1.1">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="CONST_WIDTH" VALUE="1"/>
+        <PARAMETER NAME="CONST_VAL" VALUE="0x1"/>
+        <PARAMETER NAME="Component_Name" VALUE="task1_xlconstant_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="O" LEFT="0" NAME="dout" RIGHT="0" SIGIS="undef" SIGNAME="const1_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="MUX41_2" PORT="x"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/not_gate_1" HWVERSION="2.0" INSTANCE="not_gate_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="util_vector_logic" VLNV="xilinx.com:ip:util_vector_logic:2.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="C_OPERATION" VALUE="not"/>
+        <PARAMETER NAME="C_SIZE" VALUE="1"/>
+        <PARAMETER NAME="Component_Name" VALUE="task1_util_vector_logic_0_0"/>
+        <PARAMETER NAME="LOGO_FILE" VALUE="data/sym_notgate.png"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="0" NAME="Op1" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_E">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="E"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="0" NAME="Res" RIGHT="0" SIGIS="undef" SIGNAME="not_gate_1_Res">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="MUX41_1" PORT="x"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/not_gate_2" HWVERSION="2.0" INSTANCE="not_gate_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="util_vector_logic" VLNV="xilinx.com:ip:util_vector_logic:2.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="C_OPERATION" VALUE="not"/>
+        <PARAMETER NAME="C_SIZE" VALUE="1"/>
+        <PARAMETER NAME="Component_Name" VALUE="task1_util_vector_logic_0_1"/>
+        <PARAMETER NAME="LOGO_FILE" VALUE="data/sym_notgate.png"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="0" NAME="Op1" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_E">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="E"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="0" NAME="Res" RIGHT="0" SIGIS="undef" SIGNAME="not_gate_2_Res">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="MUX41_1" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+  </MODULES>
+
+</EDKSYSTEM>
